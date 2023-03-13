@@ -1,0 +1,123 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+
+
+  .header-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav {
+    padding: 2rem;
+    background-color: rgb(0, 0, 0);
+  }
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    
+  }
+  .nav a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+  }
+  .header-img {
+    background-image: url("https://cdn.discordapp.com/attachments/1004187570852335727/1084857694055309312/R.png");
+    background-size: cover;
+    background-position: center;
+    padding: 12rem;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    isolation: isolate;
+  }
+  
+  .header-img::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: black;
+    opacity: 0.7;
+  }
+  .header-img h1 {
+    color: white;
+    font-size: 5rem;
+  }
+  .header-img p {
+    color: white;
+    font-size: 2rem;
+  }
+  .header-img button {
+    padding: 1.5rem 1rem;
+    width: 20%;
+    border-radius: 1rem;
+    border-style: none;
+    font-size: 1.5rem;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .header-img button:hover {
+    background-color: rgb(183, 123, 10);
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+.body-container  {
+  
+  text-align: center;
+  font-size: 1.5rem;
+  display:flex;
+  flex-direction:column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.body-container p {
+
+  margin-top: 20px;
+}
+
+
+ .body-container h1 {
+    margin-top: 70px;
+    font-size: xx-large;
+}
+
+.body-container h2 {
+  margin-top: 70px;
+  font-size: xx-large;
+}
+
+.body-container h3 {
+
+  margin-top: 70px;
+  font-size: xx-large;
+  
+}
+
+.body-container hr {
+
+  width: 200px;
+  color: peru;
+  
+}
+
+
+
